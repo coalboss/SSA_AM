@@ -10,16 +10,6 @@
 
 This repository provides a official implementation of our champion system of Track 1 of the CHiME-6 Challenge. 
 
-## Introduction
-
-## Data Augmentation
-
-## Acoustic Model
-
-## Results
-
-## Requirments
-
 ## Citation
 
 If you find this code useful in your research, please consider to cite the following papers:
@@ -34,7 +24,12 @@ If you find this code useful in your research, please consider to cite the follo
 }
 ```
 
+## Introduction
 
-## License
+## Data Augmentation
 
-It is noted that the code can only be used for comparative or benchmarking purposes. Users can only use code supplied under a License for non-commercial purposes.
+## Acoustic Model
+
+## Results
+
+## Requirments
