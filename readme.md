@@ -1,5 +1,13 @@
 # Space-and-Speaker-Aware Acoustic Modeling with Effective Data Augmentation for Recognition of Multi-Array Conversational Speech
 
+<p align="center">
+  <a href="https://github.com/coalboss/SSA_AM/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/misitebao/standard-repository?style=flat-square"/></a>
+  <a href="https://github.com/coalboss/SSA_AM"><img alt="GitHub Repo stars"src="https://img.shields.io/github/stars/coalboss/SSA_AM?style=flat-square"/></a>
+  <a href="https://github.com/coalboss/SSA_AM/"><img alt="GitHub Repo stars" src="https://img.shields.io/badge/author-coalboss-brightgreen?style=flat-square"/></a>
+</p>
+
+<span id="nav-1"></span>
+
 This repository provides a official implementation of our champion system of Track 1 of the CHiME-6 Challenge. 
 
 ## Introduction
