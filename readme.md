@@ -10,8 +10,6 @@ This repository provides a official implementation of our champion system of Tra
 
 ## Results
 
-## Quick start
-
 ## Requirments
 
 ## Citation
@@ -20,7 +18,7 @@ If you find this code useful in your research, please consider to cite the follo
 
 ```bibtex
 @inproceedings{chai2023ssa,
-  title={Li Chai, Hang Chen, Jun Du, Qing-Feng Liu, Chin-Hui Lee},
+  title={Li Chai and Hang Chen and Jun Du and Qing-Feng Liu and Chin-Hui Lee},
   booktitle={Space-and-Speaker-Aware Acoustic Modeling with Effective Data Augmentation for Recognition of Multi-Array Conversational Speech},
   pages={},
   year={},
