@@ -4,8 +4,6 @@ This repository provides a official implementation of our champion system of Tra
 
 ## Introduction
 
-
-
 ## Data Augmentation
 
 ## Acoustic Model
@@ -23,7 +21,7 @@ If you find this code useful in your research, please consider to cite the follo
 ```bibtex
 @inproceedings{chai2023ssa,
   title={Li Chai, Hang Chen, Jun Du, Qing-Feng Liu, Chin-Hui Lee},
-  booktitle={Space-and-Speaker-Aware Acoustic Modeling with Effective Data Augmentation for Recognition of Multi-Array Conversational Speec},
+  booktitle={Space-and-Speaker-Aware Acoustic Modeling with Effective Data Augmentation for Recognition of Multi-Array Conversational Speech},
   pages={},
   year={},
   organization={}
