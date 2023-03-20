@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/coalboss/SSA_AM/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/misitebao/standard-repository?style=flat-square"/></a>
   <a href="https://github.com/coalboss/SSA_AM"><img alt="GitHub Repo stars"src="https://img.shields.io/github/stars/coalboss/SSA_AM?style=flat-square"/></a>
-  <a href="https://github.com/coalboss/SSA_AM/"><img alt="GitHub Repo stars" src="https://img.shields.io/badge/author-coalboss-brightgreen?style=flat-square"/></a>
+  <a href="https://github.com/coalboss"><img alt="GitHub Repo stars" src="https://img.shields.io/badge/author-coalboss-brightgreen?style=flat-square"/></a>
 </p>
 
 <span id="nav-1"></span>
