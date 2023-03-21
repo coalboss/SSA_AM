@@ -18,8 +18,9 @@ If you find this code useful in your research, please consider to cite the follo
 
 ```bibtex
 @inproceedings{chai2023ssa,
-  title={Li Chai and Hang Chen and Jun Du and Qing-Feng Liu and Chin-Hui Lee},
-  booktitle={Space-and-Speaker-Aware Acoustic Modeling with Effective Data Augmentation for Recognition of Multi-Array Conversational Speech},
+  author={Li Chai and Hang Chen and Jun Du and Qing-Feng Liu and Chin-Hui Lee},
+  title={Space-and-Speaker-Aware Acoustic Modeling with Effective Data Augmentation for Recognition of Multi-Array Conversational Speech},
+  booktitle={},
   pages={},
   year={},
   organization={}
@@ -100,22 +101,25 @@ The above acoustic models only use the fbank features extracted from the target 
 bash 
 ```
 
-## **Results**
+## **Results (WER in %)**
+
+- **WER(in %) results on the evaluation data processed by the SSA-IME-enhancement**
+
+  | Acoustic model architectures | DINING | KITCHEN | LIVING | AVE | 
+  | -------------- | ----------- | ----------- |----------- |----------- |
+  | ResNet-TDNNF |   30.67   |  46.72 | 36.87 | 37.37|
+  | ResNet-TDNNF-Dilation | 29.69 | 45.19 | 36.41 | 36.41 |
+  | ResNet-SelfAttention-TDNNF-Dilation | 29.41 | 44.16 | 36.34 | 35.98|
+  | ResNet-TDNN-RBiLSTM | 31.10 | 46.87 | 37.81 | 37.89|
 
 
-| Acoustic model architectures | DINING | KITCHEN | LIVING | AVE | 
-| -------------- | ----------- | ----------- |----------- |----------- |
-| ResNet-TDNNF |   30.67   |  46.72 | 36.87 | 37.37|
-| ResNet-TDNNF-Dilation | 29.69 | 45.19 | 36.41 | 36.41 |
-| ResNet-SelfAttention-TDNNF-Dilation | 29.41 | 44.16 | 36.34 | 35.98|
-| ResNet-TDNN-RBiLSTM | 31.10 | 46.87 | 37.81 | 37.89|
+  | Acoustic model framework | SUB | DEL | INS | ALL|
+  | -------------- | ----------- | ----------- |----------- |----------- |
+  | Conventional |   19.87 | 11.37 | 5.17 | 36.41|
+  | Speaker-Aware | 16.62 | 15.57 | 3.05 | 35.25 |
+  | Space-Aware | 19.24 | 11.12 | 5.36 | 35.62|
+  | Space-and-Speaker-Aware | 17.82 | 12.56 | 4.04 | 34.42|
 
-
-| Acoustic model framework | SUB | DEL | INS | ALL|
-| -------------- | ----------- | ----------- |----------- |----------- |
-| Conventional |   19.87 | 11.37 | 5.17 | 36.41|
-| Speaker-Aware | 16.62 | 15.57 | 3.05 | 35.25 |
-| Space-Aware | 19.24 | 11.12 | 5.36 | 35.62|
-| Space-and-Speaker-Aware | 17.82 | 12.56 | 4.04 | 34.42|
+- **Listening Samples (<font color='red'> preparing... </font>)**
 
 ### **Please star it, thank you! :)**
