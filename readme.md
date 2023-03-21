@@ -8,6 +8,8 @@
 
 <span id="nav-1"></span>
 
+<div align="center"><img src="https://github.com/mispchallenge/MISP2021-AVSR/blob/main/images/overall.pdf" width="640"/></div>
+
 This repository provides a official implementation of our champion system of Track 1 of the CHiME-6 Challenge. 
 
 ## Citation
@@ -26,22 +28,19 @@ If you find this code useful in your research, please consider to cite the follo
 
 ## Introduction
 
-  The acoustic model of the ASR system is built largely following the Kaldi [CHIME6](https://github.com/kaldi-asr/kaldi/tree/master/egs/chime6/s5_track1) recipes which mainly contain two stages: GMM-HMM state model and TDNN deep learning model.
+  Our system is largely based on [the baseline system in Kaldi](https://github.com/kaldi-asr/kaldi/tree/master/egs/chime6/s5b_track1), with updated training data and acoustic model. To use our system, researchers must first prepare the data (including i-vector) and train the GMM-HMM model using the baseline system, following the instructions provided in the Kaldi repository. Once this is done, they can copy our code to the baseline folder and run it using the instructions provided in our repository.
 
-  - **GMM-HMM**
+## Training Data Preparation
 
-    For features extraction, we extract 13-dimensional MFCC features plus 3-dimensional pitches. As a start point for triphone models, a monophone model is trained on a subset of 50k utterances.  Then a small triphone model and a larger triphone model are consecutively trained using delta features on a subset of 100k utterances and the whole dataset respectively. In the third triphone model training process, an MLLT-based global transform is estimated iteratively on the top of LDA feature to extract independent speaker features. For the fourth triphone model, feature space maximum likelihood linear regression (fMLLR) with speaker adaptive training (SAT) is applied in the training.
+  - **GSS and worn microphone**
+  same as in baseline
 
-  - **NN-HMM**
+  - ****
 
-    Based on the tied-triphone state alignments from GMM, TDNN is configured and trained to replace GMM. Here two data augmentation technologies, speed-perturbation and volume-perturbation are applied on signal level. The input features are 40-dimensional high-resolution MFCC features with cepstral normalization. Note that for each frame-wise input, a 100-dimensional i-vector is also attached, whose extractor was trained on the expanded corpus. An advanced time-delayed neural network (TDNN) baseline using lattice-free maximum mutual information (LF-MMI) training and other strategies is adopted in the system, and you can consult the [paper](https://www.danielpovey.com/files/2018_interspeech_tdnnf.pdf) and the [document](https://kaldi-asr.org/doc/chain.html) for more details.
-
-- ## Data Augmentation
-
-- ## Acoustic Model
+## Acoustic Model
 
 ## Results
 
-## Requirments
+
 
 ### Please star it, thank you! :）
