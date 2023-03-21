@@ -59,7 +59,7 @@ If you find this code useful in your research, please consider to cite the follo
     
 ## **Acoustic Model Architectures**
 
-<div align="center"><img src="img/AMS.jpg" width="900"/></div>
+<div align="center"><img src="img/AMs.jpg" width="900"/></div>
 
 We proposed 4 acoustic model architectures ResNet-TDNNF, ResNet-TDNNF-Dilation, ResNetSelfAttention-TDNNF-Dilation and ResNet-TDNN-RBiLSTM.
 
