@@ -8,7 +8,7 @@
 
 <span id="nav-1"></span>
 
-<div align="center"><img src="https://github.com/coalboss/SSA_AM/tree/main/img/overall.jpg" width="640"/></div>
+<div align="center"><img src="img/overall.jpg" width="640"/></div>
 
 This repository provides a official implementation of our champion system of Track 1 of the CHiME-6 Challenge. 
 
