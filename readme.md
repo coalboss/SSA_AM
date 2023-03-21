@@ -101,7 +101,7 @@ The above acoustic models only use the fbank features extracted from the target 
 bash 
 ```
 
-## **Results (WER in %)**
+## **Results**
 
 - **WER(in %) results on the evaluation data processed by the SSA-IME-enhancement**
 
@@ -120,6 +120,6 @@ bash
   | Space-Aware | 19.24 | 11.12 | 5.36 | 35.62|
   | Space-and-Speaker-Aware | 17.82 | 12.56 | 4.04 | 34.42|
 
-- **Listening Samples (<font color='red'> preparing... </font>)**
+- **Listening samples (<font color='red'> preparing... </font>)**
 
 ### **Please star it, thank you! :)**
