@@ -117,6 +117,12 @@ bash run_Resnet_tdnnf_SSA.sh --stage 11
   | Space-Aware | 19.24 | 11.12 | 5.36 | 35.62|
   | Space-and-Speaker-Aware | 17.82 | 12.56 | 4.04 | 34.42|
 
+- **Spectrum show**
+
+  We included an example of an utterance by Speaker P05 selected from Session 02, which demonstrates the effectiveness of the SSA-IME method in removing interfering speakers (denoted by the blue box) and reducing noise (denoted by the green box). 
+
+<div align="center"><img src="img/spectrum_show.jpg" width="800"/></div>
+
 - **Listening samples (<font color='red'> preparing... </font>)**
 
 ### **Please star it, thank you! :)**
