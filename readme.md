@@ -67,29 +67,26 @@ We proposed 4 acoustic model architectures ResNet-TDNNF, ResNet-TDNNF-Dilation, 
 
 
 ```
-bash 
+bash run_Resnet_12ftdnndim2048bn512_firstBN1024_SpecAugment_Epoch6.sh --stage 11
 ```
 
 - **ResNet-TDNNF-Dilation**
 
 ```
-bash 
+bash run_Resnet_12ftdnndim2048bn512_firstBN1024_SpecAugment_Epoch6_dialation.sh --stage 11
 ```
 
 - **ResNetSelfAttention-TDNNF-Dilation**
 
 ```
-bash 
+bash run_Resnet_selfattention_12ftdnndim2048bn512_firstBN1024_SpecAugment_Epoch6_dilation.sh --stage 11
 ```
 
 - **ResNet-TDNN-RBiLSTM**
 
 ```
-bash 
+bash run_Resnet_tdnn_Resbilstm_projectlayer512_SpecAugment_Epoch6.sh --stage 11
 ```
-
-
-
 
 ## **Space-and-Speaker-Aware Acoustic Modeling**
 
@@ -98,7 +95,7 @@ bash
 The above acoustic models only use the fbank features extracted from the target speaker as the inputs. One of the highlights in this system is the Space-and-Speaker-Aware Acoustic Modeling (SSA-AM) approach which exploits the speaker information from both target and interfering speakers and space information between different speakers for acoustic modeling. These features are concatenated together serving as the inputs.
 
 ```
-bash 
+bash run_Resnet_tdnnf_SSA.sh --stage 11
 ```
 
 ## **Results**
